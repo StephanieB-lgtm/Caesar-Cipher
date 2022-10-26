@@ -1,18 +1,4 @@
 
-#TODO-1: Import and print the logo from art.py
-
-#TODO-2: What if the user enters a shift that is greater than the number of letters in the alphabet? Find a solution!
-
-#TODO-3: What happens if the user enters a number/symbol/space?
-#Keep the number/symbol/space when the text is encoded/decoded.
-#e.g. start_text = "meet me at 3"
-#end_text = "•••• •• •• 3"
-
-#TODO-4: Restart the cipher program.
-#e.g. Type 'yes' if you want to go again. Otherwise type 'no'.
-#If they type 'yes' then ask them for the direction/text/shift again and call the caesar() function again.
-
-
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 def caesar(start_text, shift_amount, cipher_direction):
