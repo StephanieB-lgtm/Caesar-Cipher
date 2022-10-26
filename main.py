@@ -40,6 +40,6 @@ while should_continue:
   
   if result == "no":
     should_continue= False
-    print("Goodbye")
+    print("Sorry to see you go. Goodbye!")
 
 
